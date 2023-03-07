@@ -2,7 +2,7 @@
   "name": "express-initial-setting",
   "version": "1.0.0",
   "description": "",
-  "main": "./src",
+  "main": "app.js",
   "scripts": {
     "test": "DOTENV_CONFIG_PATH=./env/.env.test jest --setupFiles=dotenv/config",
     "start": "nodemon server.js"
